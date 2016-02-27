@@ -8,6 +8,11 @@
     <RootNamespace>MyApplication</RootNamespace>
     <AssemblyName>MyApplication</AssemblyName>
     <Name>ApplicationInsights-PS</Name>
+    <Author>Niel Zeeman</Author>
+    <CompanyName>Team Foundation Consulting</CompanyName>
+    <Copyright />
+    <Description />
+    <Guid>62d03102-072d-469e-a77e-7a84465eb4fa</Guid>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="Script.ps1" />
+    <Compile Include="ApplicationInsights.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
